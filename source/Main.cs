@@ -33,6 +33,8 @@ namespace Proggitbot
 		public static void OnRawMessage(object sender, IrcEventArgs e)
 		{
 			Console.WriteLine("Received: " + e.Data.RawMessage);
+			Console.WriteLine(e.Data.Nick);
+			Console.WriteLine(e.Data.Message);
 		}
 
 		public static void Main(string[] args)
@@ -46,7 +48,6 @@ namespace Proggitbot
 				Console.WriteLine("Domain: {0}", entry.Domain);
 				Console.WriteLine("=========================================");
 			}
-			Exit();
 
 			Thread.CurrentThread.Name = "Main";
 			
@@ -68,7 +69,7 @@ namespace Proggitbot
 				irc.Connect(serverlist, port);
 			} catch (ConnectionException e) {
 				// something went wrong, the reason will be shown
-				System.Console.WriteLine("couldn't connect! Reason: "+e.Message);
+				Console.WriteLine("couldn't connect! Reason: "+e.Message);
 				Exit();
 			}
 			
@@ -78,18 +79,6 @@ namespace Proggitbot
 				// join the channel
 				irc.RfcJoin(channel);
 
-				/*
-				
-				for (int i = 0; i < 3; i++) {
-					// here we send just 3 different types of messages, 3 times for
-					// testing the delay and flood protection (messagebuffer work)
-					irc.SendMessage(SendType.Message, channel, "test message ("+i.ToString()+")");
-					irc.SendMessage(SendType.Action, channel, "thinks this is cool ("+i.ToString()+")");
-					irc.SendMessage(SendType.Notice, channel, "SmartIrc4net rocks ("+i.ToString()+")");
-				}
-
-				*/
-				
 				// spawn a new thread to read the stdin of the console, this we use
 				// for reading IRC commands from the keyboard while the IRC connection
 				// stays in its own thread
@@ -111,8 +100,8 @@ namespace Proggitbot
 				Exit();
 			} catch (Exception e) {
 				// this should not happen by just in case we handle it nicely
-				System.Console.WriteLine("Error occurred! Message: "+e.Message);
-				System.Console.WriteLine("Exception: "+e.StackTrace);
+				Console.WriteLine("Error occurred! Message: "+e.Message);
+				Console.WriteLine("Exception: "+e.StackTrace);
 				Exit();
 			}
 		}
@@ -123,7 +112,7 @@ namespace Proggitbot
 			// WARNING, it uses WriteLine() means you need to enter RFC commands
 			// like "JOIN #test" and then "PRIVMSG #test :hello to you"
 			while (true) {
-				string cmd = System.Console.ReadLine();
+				string cmd = Console.ReadLine();
 				if (cmd.StartsWith("/list")) {
 					int pos = cmd.IndexOf(" ");
 					string channel = null;
