@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<project name="Proggitbot" default="bot" basedir=".">
+	<property name="build.dir" value="bin"/>
+	<property name="project.name" value="Proggitbot"/>
+	<property name="project.version" value="0.1"/>
+	<property name="project.exe" value="${project.name}.exe"/>
+	
+	<target name="submodule-update">
+		<exec program="git" commandline="submodule update --init"/>
+	</target>
+
+	<target name="smartirc" depends="submodule-update">
+		<csc target="library" verbose="true"
+				output="${build.dir}/SmartIrc4Net.dll">
+			<sources>
+				<include name="SmartIrc4Net/src/**.cs"/>
+			</sources>
+			<references>
+			</references>
+		</csc>
+	</target>
+
+	<target name="dependencies">
+		<mkdir dir="${build.dir}"/>
+		<call target="smartirc" cascade="false"/>
+	</target>
+	
+	<target name="bot" depends="dependencies">
+		<mkdir dir="${build.dir}"/>
+	</target>
+</project>
