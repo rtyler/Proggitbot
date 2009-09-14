@@ -45,7 +45,7 @@
 		</csc>
 	</target>
 
-	<target name="build-test">
+	<target name="build-test" depends="dependencies">
 		<csc target="library" verbose="true"
 				output="${build.dir}/${project.tests}">
 			<sources>
