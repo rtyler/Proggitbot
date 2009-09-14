@@ -27,5 +27,21 @@
 	
 	<target name="bot" depends="dependencies">
 		<mkdir dir="${build.dir}"/>
+
+		<csc target="exe" verbose="true"
+				output="${build.dir}/${project.exe}">
+			<sources>
+				<include name="source/**.cs"/>
+			</sources>
+			<references>
+				<include name="System.Web.Extensions.dll"/>
+				<include name="${build.dir}/SmartIrc4Net.dll"/>
+			</references>
+		</csc>
 	</target>
+
+	<target name="run" depends="bot">
+		<exec program="${build.dir}/${project.exe}"/>
+	</target>
+
 </project>
