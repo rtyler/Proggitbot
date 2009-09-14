@@ -38,6 +38,7 @@
 				<include name="${project.sourcedir}/**.cs"/>
 			</sources>
 			<references>
+				<include name="System.Linq.dll"/>
 				<include name="System.Web.Extensions.dll"/>
 				<include name="${build.dir}/SmartIrc4Net.dll"/>
 			</references>
@@ -53,6 +54,7 @@
 				<include name="${project.testdir}/**.cs"/>
 			</sources>
 			<references>
+				<include name="System.Linq.dll"/>
 				<include name="${build.dir}/SmartIrc4Net.dll"/>
 				<include name="System.Web.Extensions.dll"/>
 				<include name="nunit.core.dll"/>

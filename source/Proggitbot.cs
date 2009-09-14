@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.IO;
 using System.Net;
 using System.Web.Script.Serialization;
@@ -13,19 +14,41 @@ namespace Proggitbot
 		#region "Member Variables"
 		private readonly string jsonUrl = "http://www.reddit.com/r/programming/.json";
 		protected JavaScriptSerializer json = new JavaScriptSerializer();
+		protected List<EntryData> recentEntries = null;
 		#endregion
 
 		#region "Public Methods"
-		public Root Load()
+		public List<EntryData> FetchNewEntries()
 		{
 			string data = this.FetchJson(this.jsonUrl);
+			Root root = null;
 
 			if (String.IsNullOrEmpty(data))
 			{
 				throw new Exception("No JSON from Reddit!");
 			}
 
-			return this.json.Deserialize<Root>(data);
+			root = this.json.Deserialize<Root>(data);
+
+			if (root == null)
+			{
+				throw new Exception("Null object deserialized?");
+			}
+
+			if (this.recentEntries == null)
+			{
+				this.recentEntries = root.Entries;
+				return this.recentEntries;
+			}
+
+
+			List<EntryData> difference = this.recentEntries.Except(root.Entries) as List<EntryData>;
+
+			if (difference.Count != 0)
+			{
+				return difference;
+			}
+
 			return null;
 		}
 		#endregion
