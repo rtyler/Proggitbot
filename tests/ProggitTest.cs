@@ -36,9 +36,18 @@ namespace Proggitbot.Tests
 		public void DeserializeIntoRoot()
 		{
 			Root root = this.json.Deserialize<Root>(this.sampleEntireEntry);
-
 			Assert.IsNotNull(root, "Root object is null");
+			Assert.AreEqual("Listing", root.Kind, "Kind mismatch");
+		}
 
+		[Test] 
+		public void PullEntriesThroughRoot()
+		{
+			Root root = this.json.Deserialize<Root>(this.sampleEntireEntry);
+			Assert.IsNotNull(root, "Root object is null");
+			
+			Assert.IsNotNull(root.Entries, "Root.Entries is null");
+			Assert.AreEqual(1, root.Entries.Count, "Root.Entries should have one node in it");
 		}
 	}
 }

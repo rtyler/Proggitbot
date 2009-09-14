@@ -10,6 +10,12 @@ namespace Proggitbot
 		#region "Member Variables"
 		private string kind = null;
 		private RootData data = null;
+
+		///	<summary>
+		///		Separate variable for pulling EntryData objects
+		///		up out of the Root.RootData.Children.Data objects
+		///	</summary>
+		private List<EntryData> entries = null;
 		#endregion
 
 		#region "Public Properties"
@@ -23,6 +29,26 @@ namespace Proggitbot
 		{
 			get { return this.data; }
 			set { this.data = value; }
+		}
+
+		public List<EntryData> Entries
+		{
+			get 
+			{
+				if (this.entries != null)
+					return this.entries;
+
+				if (this.Data == null)
+					return null;
+
+				this.entries = new List<EntryData>();
+
+				foreach (Entry entry in this.Data.Children)
+				{
+					this.entries.Add(entry.Data);
+				}
+				return this.entries;
+			}
 		}
 		#endregion
 	}
