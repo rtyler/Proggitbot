@@ -32,6 +32,7 @@ namespace Proggitbot
 	{
 		#region "Member Variables"
 		private string after = null;
+		private string before = null;
 		private List<Entry> children = null;
 		#endregion
 
@@ -40,6 +41,12 @@ namespace Proggitbot
 		{
 			get { return this.after; }
 			set { this.after = value; }
+		}
+
+		public string Before
+		{
+			get { return this.before; }
+			set { this.before = value; }
 		}
 
 		public List<Entry> Children
