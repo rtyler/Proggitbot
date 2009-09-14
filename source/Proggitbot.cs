@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
+using System.Web.Script.Serialization;
 
 using Meebey.SmartIrc4net;
 
@@ -10,7 +11,23 @@ namespace Proggitbot
 	public class Proggitbot
 	{
 		#region "Member Variables"
-		private const string jsonUrl = "http://www.reddit.com/r/programming/.json";
+		private readonly string jsonUrl = "http://www.reddit.com/r/programming/.json";
+		protected JavaScriptSerializer json = new JavaScriptSerializer();
+		#endregion
+
+		#region "Public Methods"
+		public Root Load()
+		{
+			string data = this.FetchJson(this.jsonUrl);
+
+			if (String.IsNullOrEmpty(data))
+			{
+				throw new Exception("No JSON from Reddit!");
+			}
+
+			return this.json.Deserialize<Root>(data);
+			return null;
+		}
 		#endregion
 
 		#region "Internal Methods"
