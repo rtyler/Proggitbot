@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Web.Script.Serialization;
 
 namespace Proggitbot
@@ -151,6 +152,30 @@ namespace Proggitbot
 			set { this.title = value; }
 		}
 		#endregion
+
+		#region "Public Methods"
+		public bool Equals(EntryData other)
+		{
+			if (this.Title == other.Title)
+				return true;
+			return false;
+		}
+		#endregion
+	}
+
+	public class EntryDataComparer : IEqualityComparer<EntryData>
+	{
+		public bool Equals(EntryData left, EntryData right)
+		{
+			if (left.Title == right.Title)
+				return true;
+			return false;
+		}
+
+		public int GetHashCode(EntryData item)
+		{
+			return item.Title.GetHashCode();
+		}
 	}
 }
 
