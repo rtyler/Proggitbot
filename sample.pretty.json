@@ -1,0 +1,778 @@
+{
+    "kind": "Listing",
+    "data": {
+        "after": "t3_9jxt6",
+        "children": [
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "ted.com",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k30b",
+                    "clicked": false,
+                    "author": "scientologist2",
+                    "media": null,
+                    "score": 353,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 97,
+                    "name": "t3_9k30b",
+                    "created": 1252871681.0,
+                    "url": "http://www.ted.com/talks/dan_pink_on_motivation.html",
+                    "title": "The science of motivation vs. problem solving",
+                    "created_utc": 1252846481.0,
+                    "num_comments": 82,
+                    "ups": 450
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "blog.wolfire.com",
+                    "media_embed": {
+                        "content": "&lt;object width=\"490\" height=\"295\"&gt;&lt;param name=\"movie\" value=\"http://www.youtube.com/v/2rpKpj6ZO9w\"&gt;&lt;/param&gt;&lt;param name=\"wmode\" value=\"transparent\"&gt;&lt;/param&gt;&lt;embed src=\"http://www.youtube.com/v/2rpKpj6ZO9w\" type=\"application/x-shockwave-flash\" wmode=\"transparent\" width=\"480\" height=\"295\"&gt;&lt;/embed&gt;&lt;/object&gt;",
+                        "width": 480,
+                        "scrolling": false,
+                        "height": 295
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k5w6",
+                    "clicked": false,
+                    "author": "parsap",
+                    "media": {
+                        "video_id": "2rpKpj6ZO9w",
+                        "type": "youtube.com",
+                        "deep": "http://blog.wolfire.com/2009/09/preview-of-webkits-webgl-canvas3d/"
+                    },
+                    "score": 77,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 66,
+                    "name": "t3_9k5w6",
+                    "created": 1252897906.0,
+                    "url": "http://blog.wolfire.com/2009/09/preview-of-webkits-webgl-canvas3d/",
+                    "title": "Preview of WebKit's WebGL / Canvas 3D",
+                    "created_utc": 1252872706.0,
+                    "num_comments": 61,
+                    "ups": 143
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "youtube.com",
+                    "media_embed": {
+                        "content": "&lt;object width=\"490\" height=\"295\"&gt;&lt;param name=\"movie\" value=\"http://www.youtube.com/v/Bx6snEm7_J8\"&gt;&lt;/param&gt;&lt;param name=\"wmode\" value=\"transparent\"&gt;&lt;/param&gt;&lt;embed src=\"http://www.youtube.com/v/Bx6snEm7_J8\" type=\"application/x-shockwave-flash\" wmode=\"transparent\" width=\"480\" height=\"295\"&gt;&lt;/embed&gt;&lt;/object&gt;",
+                        "width": 480,
+                        "scrolling": false,
+                        "height": 295
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k3d7",
+                    "clicked": false,
+                    "author": "bluepill2",
+                    "media": {
+                        "video_id": "Bx6snEm7_J8",
+                        "type": "youtube.com"
+                    },
+                    "score": 116,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 96,
+                    "name": "t3_9k3d7",
+                    "created": 1252875713.0,
+                    "url": "http://www.youtube.com/watch?v=Bx6snEm7_J8",
+                    "title": "This guy created an engine to make your own point-and-click flash games. Its free, and it looks pretty nice!",
+                    "created_utc": 1252850513.0,
+                    "num_comments": 37,
+                    "ups": 212
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "swtch.com",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k3tu",
+                    "clicked": false,
+                    "author": "cracki",
+                    "media": null,
+                    "score": 80,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 88,
+                    "name": "t3_9k3tu",
+                    "created": 1252879839.0,
+                    "url": "http://swtch.com/~rsc/regexp/regexp1.html?",
+                    "title": "Regular Expression Matching Can Be Simple And Fast (but is slow in Java, Perl, PHP, Python, Ruby, ...)",
+                    "created_utc": 1252854639.0,
+                    "num_comments": 65,
+                    "ups": 168
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "self.programming",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;&lt;code&gt;[irc://irc.freenode.net/proggit](irc://irc.freenode.net/proggit)&lt;/code&gt;&lt;/p&gt;\n\n&lt;p&gt;Edit: lame, Reddit only lets you link to http :(&lt;/p&gt;\n\n&lt;p&gt;Edit: Lets hang in &lt;a href=\"http://tinyurl.com/oxmrb3\"&gt;##proggit&lt;/a&gt; not #proggit because like &lt;a href=\"http://www.reddit.com/user/sysop073\"&gt;sysop073 said&lt;/a&gt; technically that's the &lt;a href=\"http://freenode.net/policy.shtml#channelnaming\"&gt;channel we should use&lt;/a&gt; and because #proggit is registered to some random, I registered &lt;a href=\"http://tinyurl.com/oxmrb3\"&gt;##proggit&lt;/a&gt; and will be handing out ops etc.&lt;/p&gt;\n\n&lt;p&gt;&lt;strong&gt;Change channels people&lt;/strong&gt;&lt;/p&gt;\n\n&lt;p&gt;Edit: Turns out #proggit wasn't registered by some random, he (OriginalSyn) is a 3 year Redditor and was kind enough to redirect his channel to ##proggit!&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+                    "selftext": "`[irc://irc.freenode.net/proggit](irc://irc.freenode.net/proggit)`\n\nEdit: lame, Reddit only lets you link to http :(\n\nEdit: Lets hang in [##proggit](http://tinyurl.com/oxmrb3) not #proggit because like [sysop073 said](http://www.reddit.com/user/sysop073) technically that's the [channel we should use](http://freenode.net/policy.shtml#channelnaming) and because #proggit is registered to some random, I registered [##proggit](http://tinyurl.com/oxmrb3) and will be handing out ops etc.\n\n**Change channels people**\n\nEdit: Turns out #proggit wasn't registered by some random, he (OriginalSyn) is a 3 year Redditor and was kind enough to redirect his channel to ##proggit!",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k44k",
+                    "clicked": false,
+                    "author": "dextro_",
+                    "media": null,
+                    "score": 65,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 87,
+                    "name": "t3_9k44k",
+                    "created": 1252882327.0,
+                    "url": "http://www.reddit.com/r/programming/comments/9k44k/dear_proggit_you_should_jump_on_freenode_and_join/",
+                    "title": "Dear Proggit: You should jump on freenode and join #proggit",
+                    "created_utc": 1252857127.0,
+                    "num_comments": 57,
+                    "ups": 152
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "self.programming",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I've been looking at things in the /r/programming reddit for some time now, and have always wondered \"what the heck does this mean?\"  At first, I didn't really care about programming and thought it was way over my head.&lt;/p&gt;\n\n&lt;p&gt;In the past few months I've decided that I'd really like to learn more about programming, and perhaps pursue Computer Science in college.  I decided I want to do it because I feel like it's fun.  I haven't really programmed at all in the past, besides some mIRC scripting.  Even that though was interesting to me.&lt;/p&gt;\n\n&lt;p&gt;So my question is, where do I start?  This year I'm taking AP Calculus, which I know would help me with Computer Science in college, but what should I do if I just want to learn about it now?  I really don't know where to begin, and if I do want to major in Computer Science, I'd like to get at least a small sample of what I'm biting into.  So /r/programming, any tips?&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+                    "selftext": "I've been looking at things in the /r/programming reddit for some time now, and have always wondered \"what the heck does this mean?\"  At first, I didn't really care about programming and thought it was way over my head.\n\nIn the past few months I've decided that I'd really like to learn more about programming, and perhaps pursue Computer Science in college.  I decided I want to do it because I feel like it's fun.  I haven't really programmed at all in the past, besides some mIRC scripting.  Even that though was interesting to me.\n\nSo my question is, where do I start?  This year I'm taking AP Calculus, which I know would help me with Computer Science in college, but what should I do if I just want to learn about it now?  I really don't know where to begin, and if I do want to major in Computer Science, I'd like to get at least a small sample of what I'm biting into.  So /r/programming, any tips?",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k93o",
+                    "clicked": false,
+                    "author": "AIDS_Pizza",
+                    "media": null,
+                    "score": 7,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 5,
+                    "name": "t3_9k93o",
+                    "created": 1252925809.0,
+                    "url": "http://www.reddit.com/r/programming/comments/9k93o/hey_rprogramming_im_a_senior_in_highschool_and_id/",
+                    "title": "Hey /r/programming, I'm a senior in highschool and I'd like to learn more about programming, I find it very fascinating.  However, I have no idea where to begin.  Anyone have any advice?",
+                    "created_utc": 1252900609.0,
+                    "num_comments": 15,
+                    "ups": 12
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "code.google.com",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k1or",
+                    "clicked": false,
+                    "author": "fuentesjr",
+                    "media": null,
+                    "score": 148,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 80,
+                    "name": "t3_9k1or",
+                    "created": 1252855441.0,
+                    "url": "http://code.google.com/chrome/extensions/index.html",
+                    "title": "Google Chrome Extensions: Developer Documentation",
+                    "created_utc": 1252830241.0,
+                    "num_comments": 96,
+                    "ups": 228
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "hci.stanford.edu",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9jzq3",
+                    "clicked": false,
+                    "author": "kanzenryu",
+                    "media": null,
+                    "score": 438,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 220,
+                    "name": "t3_9jzq3",
+                    "created": 1252832574.0,
+                    "url": "http://hci.stanford.edu/winograd/shrdlu/",
+                    "title": "After 37 years, SHRDLU is still stunning. How many think they could code this sort of thing?",
+                    "created_utc": 1252807374.0,
+                    "num_comments": 198,
+                    "ups": 658
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "self.programming",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;Ok, Proggit, You may have seen my screencast for 'Links Desktop' ( &lt;a href=\"http://www.reddit.com/r/programming/comments/96o97/dear_reddit_i_created_a_screencast_of_my_latest/\"&gt;http://www.reddit.com/r/programming/comments/96o97/dear_reddit_i_created_a_screencast_of_my_latest/&lt;/a&gt; ). Well, it is now in private beta, and I would like to invite the Reddit masses to give it a try and let me know what you think. Click here to give it a try.&lt;/p&gt;\n\n&lt;p&gt;&lt;a href=\"http://locidesktop.com/accounts/create/?invite=reddit\"&gt;http://locidesktop.com/accounts/create/?invite=reddit&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;There are a limited number of uses of that URL available, just so I can slowly ramp up the load on my humble server and monitor how it is coping.&lt;/p&gt;\n\n&lt;p&gt;This may be of interest to anyone interesting in building scalable Javascript applications (with a Django back-end). Feel free to ask me anything regarding how it was built.&lt;/p&gt;\n\n&lt;p&gt;Edit: Some more information here... &lt;a href=\"http://www.willmcgugan.com/2009/9/12/evolution-of-an-auto-complete/\"&gt;http://www.willmcgugan.com/2009/9/12/evolution-of-an-auto-complete/&lt;/a&gt;&lt;/p&gt;\n\n&lt;p&gt;Update: Server load is 0.00, 0.04, 0.05 Good job, Django. I've increased the number of available invites. Try again if you were declined.&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+                    "selftext": "Ok, Proggit, You may have seen my screencast for 'Links Desktop' ( http://www.reddit.com/r/programming/comments/96o97/dear_reddit_i_created_a_screencast_of_my_latest/ ). Well, it is now in private beta, and I would like to invite the Reddit masses to give it a try and let me know what you think. Click here to give it a try.\n\nhttp://locidesktop.com/accounts/create/?invite=reddit\n\nThere are a limited number of uses of that URL available, just so I can slowly ramp up the load on my humble server and monitor how it is coping.\n\nThis may be of interest to anyone interesting in building scalable Javascript applications (with a Django back-end). Feel free to ask me anything regarding how it was built.\n\nEdit: Some more information here... http://www.willmcgugan.com/2009/9/12/evolution-of-an-auto-complete/\n\nUpdate: Server load is 0.00, 0.04, 0.05 Good job, Django. I've increased the number of available invites. Try again if you were declined.",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k42b",
+                    "clicked": false,
+                    "author": "willm",
+                    "media": null,
+                    "score": 19,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 27,
+                    "name": "t3_9k42b",
+                    "created": 1252881795.0,
+                    "url": "http://www.reddit.com/r/programming/comments/9k42b/i_finally_pushed_my_hobby_project_live_a_novel/",
+                    "title": "I finally pushed my hobby project live (a novel Javascript bookmarking app), and I need feedback. Get your beta invite here, and try to break it.",
+                    "created_utc": 1252856595.0,
+                    "num_comments": 39,
+                    "ups": 46
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "gitorious.org",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k2gh",
+                    "clicked": false,
+                    "author": "zouhair",
+                    "media": null,
+                    "score": 40,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 45,
+                    "name": "t3_9k2gh",
+                    "created": 1252864940.0,
+                    "url": "http://gitorious.org/git/mainline/commit/78d9d414123ad6f4f522ffecbcd9e4a7562948fd",
+                    "title": "Ahh, the heady days of 0.99 patchfiles",
+                    "created_utc": 1252839740.0,
+                    "num_comments": 8,
+                    "ups": 85
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "tommd.wordpress.com",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k1co",
+                    "clicked": false,
+                    "author": "dons",
+                    "media": null,
+                    "score": 85,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 54,
+                    "name": "t3_9k1co",
+                    "created": 1252850879.0,
+                    "url": "http://tommd.wordpress.com/2009/09/13/kernel-modules-in-haskell/?ftw",
+                    "title": "Writing Linux Kernel Modules in Haskell",
+                    "created_utc": 1252825679.0,
+                    "num_comments": 22,
+                    "ups": 139
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "factor-language.blogspot.com",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k2qr",
+                    "clicked": false,
+                    "author": "gst",
+                    "media": null,
+                    "score": 26,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 23,
+                    "name": "t3_9k2qr",
+                    "created": 1252868834.0,
+                    "url": "http://factor-language.blogspot.com/2009/09/advanced-floating-point-features.html",
+                    "title": "Factor: Advanced floating point features: exceptions, rounding modes, denormals, unordered compares, and more",
+                    "created_utc": 1252843634.0,
+                    "num_comments": 6,
+                    "ups": 49
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "opendotdotdot.blogspot.com",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9jx3h",
+                    "clicked": false,
+                    "author": "atomicthumbs",
+                    "media": null,
+                    "score": 391,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 182,
+                    "name": "t3_9jx3h",
+                    "created": 1252806130.0,
+                    "url": "http://opendotdotdot.blogspot.com/2009/09/russias-new-holiday-programmers-day.html",
+                    "title": "Dmitry Medvedev declares official holiday in \r\nRussia: Programmer's Day",
+                    "created_utc": 1252780930.0,
+                    "num_comments": 105,
+                    "ups": 573
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "pastebin.com",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k3it",
+                    "clicked": false,
+                    "author": "Carioca",
+                    "media": null,
+                    "score": 9,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 15,
+                    "name": "t3_9k3it",
+                    "created": 1252877277.0,
+                    "url": "http://pastebin.com/f1bc014d9",
+                    "title": "Ladies and Gentlemen, I give you... Pirate Critic, a Python script that mashes up The Pirate Bay's top 100 movies with their metacritic scores. Suggestions are, of course, welcome.",
+                    "created_utc": 1252852077.0,
+                    "num_comments": 22,
+                    "ups": 24
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "self.programming",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": null,
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k5zh",
+                    "clicked": false,
+                    "author": "brooksbp",
+                    "media": null,
+                    "score": 2,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 8,
+                    "name": "t3_9k5zh",
+                    "created": 1252898724.0,
+                    "url": "http://www.reddit.com/r/programming/comments/9k5zh/ask_proggit_how_do_you_organize_your_academic/",
+                    "title": "Ask proggit: How do you organize your academic papers?",
+                    "created_utc": 1252873524.0,
+                    "num_comments": 12,
+                    "ups": 10
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "code.google.com",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9jze3",
+                    "clicked": false,
+                    "author": "smallfried",
+                    "media": null,
+                    "score": 73,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 41,
+                    "name": "t3_9jze3",
+                    "created": 1252829034.0,
+                    "url": "http://code.google.com/p/micropolis/downloads/list",
+                    "title": "Simcity source code gpl-ed for one year already! See if we can build the optimal city.",
+                    "created_utc": 1252803834.0,
+                    "num_comments": 14,
+                    "ups": 114
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "self.programming",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I want to pull rss feeds from german politicians (twitter, blogs, flicker, youtube) and store this data for further analysis. As far as I know google reader wont let me do that. I know there are plenty of desktop rss readers, but how do i make sure that i dont miss some entries, if for example the rss feed only displays the 20 newest ones? I thought about yahoo pipes to syndicate them into one feed, which makes things easier, but i still have to solve the storage solution. I also thought about using cronjob and a quick and dirty ruby aggregator and storing those feeds in a db.&lt;/p&gt;\n\n&lt;p&gt;Any comments are welcome&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+                    "selftext": "I want to pull rss feeds from german politicians (twitter, blogs, flicker, youtube) and store this data for further analysis. As far as I know google reader wont let me do that. I know there are plenty of desktop rss readers, but how do i make sure that i dont miss some entries, if for example the rss feed only displays the 20 newest ones? I thought about yahoo pipes to syndicate them into one feed, which makes things easier, but i still have to solve the storage solution. I also thought about using cronjob and a quick and dirty ruby aggregator and storing those feeds in a db. \n\nAny comments are welcome",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k2s5",
+                    "clicked": false,
+                    "author": "plotti",
+                    "media": null,
+                    "score": 8,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 25,
+                    "name": "t3_9k2s5",
+                    "created": 1252869248.0,
+                    "url": "http://www.reddit.com/r/programming/comments/9k2s5/ask_reddit_how_can_i_collect_and_permanently/",
+                    "title": "ASK Reddit: How can i collect AND permanently store around 700 rss feeds online, which I need for research?",
+                    "created_utc": 1252844048.0,
+                    "num_comments": 30,
+                    "ups": 33
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "self.programming",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I'm looking for a simple but complete programming language with the following features:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;Easy to learn and use (read: Haskell is awesome, but slightly more conventional would be better)&lt;/li&gt;\n&lt;li&gt;Minimalist syntax&lt;/li&gt;\n&lt;li&gt;Able to produce standalone executables for different platforms&lt;/li&gt;\n&lt;li&gt;Fast&lt;/li&gt;\n&lt;li&gt;Usable to create cross-platform CLI applications, but ideally with some GUI support&lt;/li&gt;\n&lt;li&gt;Any paradigm, best if functional, concatenative or OO&lt;/li&gt;\n&lt;li&gt;Compiled (not necessary, but otherwise the interpreter should be really small and easy to distribute)&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;For now, I'm aware of the following:&lt;/p&gt;\n\n&lt;ul&gt;\n&lt;li&gt;&lt;a href=\"http://force7.de/nimrod/\"&gt;Nimrod&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"http://live.gnome.org/Vala\"&gt;Vala&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"http://live.gnome.org/Genie\"&gt;Genie&lt;/a&gt;&lt;/li&gt;\n&lt;li&gt;&lt;a href=\"http://www.software-lab.de/down.html\"&gt;PicoLisp&lt;/a&gt; -- it doesn't seem to be able to produce standalone executables though (also, no native Windows version).&lt;/li&gt;\n&lt;/ul&gt;\n\n&lt;p&gt;Any other? Suggestions? Comments?&lt;/p&gt;\n\n&lt;p&gt;EDIT: Something like the languages mentioned &lt;a href=\"https://kmkeen.com/tiny-code/\"&gt;here&lt;/a&gt;, but matching the requirements above would be nice.&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+                    "selftext": "I'm looking for a simple but complete programming language with the following features:\n\n* Easy to learn and use (read: Haskell is awesome, but slightly more conventional would be better)\n* Minimalist syntax\n* Able to produce standalone executables for different platforms\n* Fast\n* Usable to create cross-platform CLI applications, but ideally with some GUI support\n* Any paradigm, best if functional, concatenative or OO\n* Compiled (not necessary, but otherwise the interpreter should be really small and easy to distribute)\n\nFor now, I'm aware of the following:\n\n* [Nimrod](http://force7.de/nimrod/)\n* [Vala](http://live.gnome.org/Vala)\n* [Genie](http://live.gnome.org/Genie)\n* [PicoLisp](http://www.software-lab.de/down.html) -- it doesn't seem to be able to produce standalone executables though (also, no native Windows version).\n\nAny other? Suggestions? Comments? \n\nEDIT: Something like the languages mentioned [here](https://kmkeen.com/tiny-code/), but matching the requirements above would be nice.",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k2q1",
+                    "clicked": false,
+                    "author": "h3rald",
+                    "media": null,
+                    "score": 8,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 19,
+                    "name": "t3_9k2q1",
+                    "created": 1252868558.0,
+                    "url": "http://www.reddit.com/r/programming/comments/9k2q1/ask_proggit_small_crossplatform_language_to/",
+                    "title": "Ask Proggit: Small, cross-platform language to create small standalone executables?",
+                    "created_utc": 1252843358.0,
+                    "num_comments": 82,
+                    "ups": 27
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "self.programming",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;It sounds great when people say that \"learning Haskell/LISP/Prolog will make you a better programmer\". What I really want to know is how does that work in practice, where you can't use such high-level/expressive languages. This assumes that you are in a relatively low (entry-level) position and can't force your team to switch the languages. I'm looking for something other than \"generating Java or C++ code from Haskell\" because, depending on my skills and the rest of the team, it can become a liability. It's one thing to be able to write algorithms in terms of folds and it's another thing to debug generated C++ code. As another example, I'm aware of Boost.Lambda's existence, but how many teams' coding style avoids/discourages it from use just like templates because of complexity? Is this a lost cause?&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+                    "selftext": "It sounds great when people say that \"learning Haskell/LISP/Prolog will make you a better programmer\". What I really want to know is how does that work in practice, where you can't use such high-level/expressive languages. This assumes that you are in a relatively low (entry-level) position and can't force your team to switch the languages. I'm looking for something other than \"generating Java or C++ code from Haskell\" because, depending on my skills and the rest of the team, it can become a liability. It's one thing to be able to write algorithms in terms of folds and it's another thing to debug generated C++ code. As another example, I'm aware of Boost.Lambda's existence, but how many teams' coding style avoids/discourages it from use just like templates because of complexity? Is this a lost cause?",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k026",
+                    "clicked": false,
+                    "author": "plouj",
+                    "media": null,
+                    "score": 32,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 30,
+                    "name": "t3_9k026",
+                    "created": 1252836048.0,
+                    "url": "http://www.reddit.com/r/programming/comments/9k026/ask_proggit_how_has_knowing_a_functional/",
+                    "title": "Ask Proggit: How has knowing a functional programming language like Haskell been practically useful at your day job in Java or C or C++ or C#?",
+                    "created_utc": 1252810848.0,
+                    "num_comments": 82,
+                    "ups": 62
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "self.programming",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": "&lt;!-- SC_OFF --&gt;&lt;div class=\"md\"&gt;&lt;p&gt;I am sure many developers -- at least the ones who were formally trained -- took a fair amount of math courses at the university. Some minored in mathematics. The curriculum usually included Calculus (level 1, 2 and 3), linear algebra, probability/statistics. As a computer scientist, I have barely used any math whatsoever in the last 5 years. And now, with a job change, where math is becoming more relevant, I'm forcing myself to re-learn this forgotten craft.&lt;/p&gt;\n\n&lt;p&gt;Is that common among the fellow developers (let's exclude researches and work academia for the time being) that MATH NOT present at their job? How do you get back on track when your new employer requires a knowledge?&lt;/p&gt;\n\n&lt;p&gt;From now on, I am considering to keep a certain math subjects up to date? Which ones would you recommend?&lt;/p&gt;\n\n&lt;p&gt;What math any computer scientist should know?&lt;/p&gt;&lt;/div&gt;&lt;!-- SC_ON --&gt;",
+                    "selftext": "\nI am sure many developers -- at least the ones who were formally trained -- took a fair amount of math courses at the university. Some minored in mathematics. The curriculum usually included Calculus (level 1, 2 and 3), linear algebra, probability/statistics. As a computer scientist, I have barely used any math whatsoever in the last 5 years. And now, with a job change, where math is becoming more relevant, I'm forcing myself to re-learn this forgotten craft.\n\nIs that common among the fellow developers (let's exclude researches and work academia for the time being) that MATH NOT present at their job? How do you get back on track when your new employer requires a knowledge?\n\nFrom now on, I am considering to keep a certain math subjects up to date? Which ones would you recommend?\n\nWhat math any computer scientist should know?\n",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k6az",
+                    "clicked": false,
+                    "author": "puzzlecracker",
+                    "media": null,
+                    "score": 0,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 9,
+                    "name": "t3_9k6az",
+                    "created": 1252901523.0,
+                    "url": "http://www.reddit.com/r/programming/comments/9k6az/how_much_math_do_you_useknow_as_a_computer/",
+                    "title": "How much math do you use/know as a computer scientist?",
+                    "created_utc": 1252876323.0,
+                    "num_comments": 10,
+                    "ups": 9
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "haxney.org",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9jxf6",
+                    "clicked": false,
+                    "author": "jonromero",
+                    "media": null,
+                    "score": 110,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 94,
+                    "name": "t3_9jxf6",
+                    "created": 1252809159.0,
+                    "url": "http://www.haxney.org/2009/08/its-alive.html",
+                    "title": "Doing the impossible: A fully-featured web browser in Emacs",
+                    "created_utc": 1252783959.0,
+                    "num_comments": 101,
+                    "ups": 204
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "codeguru.com",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9k0ed",
+                    "clicked": false,
+                    "author": "apotheon",
+                    "media": null,
+                    "score": 23,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 13,
+                    "name": "t3_9k0ed",
+                    "created": 1252839937.0,
+                    "url": "http://www.codeguru.com/cpp/cpp/cpp_mfc/parsing/article.php/c4093",
+                    "title": "Write Your Own Regular Expression Parser",
+                    "created_utc": 1252814737.0,
+                    "num_comments": 17,
+                    "ups": 36
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "users.tkk.fi",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9jurd",
+                    "clicked": false,
+                    "author": "aparadja",
+                    "media": null,
+                    "score": 324,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 220,
+                    "name": "t3_9jurd",
+                    "created": 1252785985.0,
+                    "url": "http://users.tkk.fi/~jjsalon2/reddit/raytrace.html",
+                    "title": "Hi, proggit! Inspired by the 256b \"Puls\" intro, here's my humble attempt: Raytraced metaballs in a 512b html file. (Not for IE.)",
+                    "created_utc": 1252760785.0,
+                    "num_comments": 187,
+                    "ups": 544
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "youtube.com",
+                    "media_embed": {
+                        "content": "&lt;object width=\"490\" height=\"295\"&gt;&lt;param name=\"movie\" value=\"http://www.youtube.com/v/k6U-i4gXkLM\"&gt;&lt;/param&gt;&lt;param name=\"wmode\" value=\"transparent\"&gt;&lt;/param&gt;&lt;embed src=\"http://www.youtube.com/v/k6U-i4gXkLM\" type=\"application/x-shockwave-flash\" wmode=\"transparent\" width=\"480\" height=\"295\"&gt;&lt;/embed&gt;&lt;/object&gt;",
+                        "width": 480,
+                        "scrolling": false,
+                        "height": 295
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9jxkh",
+                    "clicked": false,
+                    "author": "PragmaticPipedream",
+                    "media": {
+                        "video_id": "k6U-i4gXkLM",
+                        "type": "youtube.com"
+                    },
+                    "score": 88,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 71,
+                    "name": "t3_9jxkh",
+                    "created": 1252810616.0,
+                    "url": "http://www.youtube.com/watch?v=k6U-i4gXkLM",
+                    "title": "Recently-released video lectures on the 6.00 course from MIT, based on Python instead of Scheme",
+                    "created_utc": 1252785416.0,
+                    "num_comments": 30,
+                    "ups": 159
+                }
+            },
+            {
+                "kind": "t3",
+                "data": {
+                    "domain": "strictlypositive.org",
+                    "media_embed": {
+                        
+                    },
+                    "subreddit": "programming",
+                    "selftext_html": null,
+                    "selftext": "",
+                    "likes": null,
+                    "saved": false,
+                    "id": "9jxt6",
+                    "clicked": false,
+                    "author": "dons",
+                    "media": null,
+                    "score": 53,
+                    "hidden": false,
+                    "thumbnail": "",
+                    "subreddit_id": "t5_2fwo",
+                    "downs": 37,
+                    "name": "t3_9jxt6",
+                    "created": 1252813075.0,
+                    "url": "http://strictlypositive.org/winging-jpgs/",
+                    "title": "Conor McBride: \"Types ... they're never around when there's work to be done\"",
+                    "created_utc": 1252787875.0,
+                    "num_comments": 18,
+                    "ups": 90
+                }
+            }
+        ],
+        "before": null
+    }
+}
