@@ -134,6 +134,18 @@ namespace Proggitbot
 			set { this.id = value; }
 		}
 
+		public Int64 Ups
+		{
+			get { return this.ups; }
+			set { this.ups = value; }
+		}
+
+		public Int64 Downs
+		{
+			get { return this.downs; }
+			set { this.downs = value; }
+		}
+
 		public string Domain 
 		{
 			get { return this.domain; }

@@ -32,6 +32,8 @@ namespace Proggitbot.Tests
 			Assert.AreEqual("scientologist2", data.Author, "Author mismatch");
 			Assert.AreEqual("ted.com", data.Domain, "Domain mismatch");
 			Assert.AreEqual("9k30b", data.Id, "ID mismatch");
+			Assert.AreEqual(450, data.Ups, "Ups mismatch");
+			Assert.AreEqual(97, data.Downs, "Downs mismatch");
 		}
 
 		[Test]
