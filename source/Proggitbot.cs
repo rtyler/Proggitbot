@@ -18,17 +18,36 @@ namespace Proggitbot
 		#endregion
 
 		#region "Public Methods"
+		///	<summary>
+		///		You should be using this method, this will fetch
+		///		the latest Proggit front-pagers and return them 
+		///		as a List<EntryData>. 
+		///
+		///		I might return null if I don't have anything for you :)
+		///	</summary>
 		public List<EntryData> FetchNewEntries()
 		{
-			string data = this.FetchJson(this.jsonUrl);
+			return this.FetchNewEntries(this.FetchJson(this.jsonUrl));
+		}
+
+		///	<summary>
+		///		Process a string of JSON, this method is really meant
+		///		for testing
+		///	</summary>
+		///	<param name="json">
+		///		Properly formatted JSON retrieved from:
+		///			http://reddit.com/r/programming/.json
+		///	</param>
+		public List<EntryData> FetchNewEntries(string json)
+		{
 			Root root = null;
 
-			if (String.IsNullOrEmpty(data))
+			if (String.IsNullOrEmpty(json))
 			{
 				throw new Exception("No JSON from Reddit!");
 			}
 
-			root = this.json.Deserialize<Root>(data);
+			root = this.json.Deserialize<Root>(json);
 
 			if (root == null)
 			{
@@ -41,11 +60,15 @@ namespace Proggitbot
 				return this.recentEntries;
 			}
 
+			IEnumerable<EntryData> diff = root.Entries.Except(this.recentEntries, 
+						new EntryDataComparer());
 
-			List<EntryData> difference = this.recentEntries.Except(root.Entries) as List<EntryData>;
+			List<EntryData> difference = diff.ToList<EntryData>();
 
 			if (difference.Count != 0)
 			{
+				/// This is a new list, so let's save it
+				this.recentEntries = root.Entries;
 				return difference;
 			}
 
