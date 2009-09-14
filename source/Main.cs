@@ -51,8 +51,11 @@ namespace Proggitbot
 
 			foreach (EntryData entry in entries)
 			{
-				irc.SendMessage(SendType.Action, channel, 
-						String.Format("{0} ({1}) {2}", entry.Title, entry.Domain, entry.Url));
+				irc.SendMessage(SendType.Notice, channel, 
+						String.Format("{0} ({1}) {2} {3}", entry.Title, entry.Author, 
+									entry.Url, 
+									String.Format("http://reddit.com/comments/{0}", entry.Id)
+								));
 			}
 		}
 

@@ -31,6 +31,7 @@ namespace Proggitbot.Tests
 			Assert.AreEqual("The science of motivation vs. problem solving", data.Title, "Title mismatch");
 			Assert.AreEqual("scientologist2", data.Author, "Author mismatch");
 			Assert.AreEqual("ted.com", data.Domain, "Domain mismatch");
+			Assert.AreEqual("9k30b", data.Id, "ID mismatch");
 		}
 
 		[Test]

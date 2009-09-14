@@ -128,6 +128,12 @@ namespace Proggitbot
 		#endregion
 
 		#region "Public Properties"
+		public string Id
+		{
+			get { return this.id; }
+			set { this.id = value; }
+		}
+
 		public string Domain 
 		{
 			get { return this.domain; }
