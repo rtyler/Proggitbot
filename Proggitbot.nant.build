@@ -3,7 +3,11 @@
 	<property name="build.dir" value="bin"/>
 	<property name="project.name" value="Proggitbot"/>
 	<property name="project.version" value="0.1"/>
+	<property name="project.sourcedir" value="source"/>
 	<property name="project.exe" value="${project.name}.exe"/>
+	<property name="project.tests" value="Proggitbot.Tests.dll"/>
+	<property name="project.testdir" value="tests"/>
+	
 	
 	<target name="submodule-update">
 		<exec program="git" commandline="submodule update --init"/>
@@ -31,7 +35,7 @@
 		<csc target="exe" verbose="true"
 				output="${build.dir}/${project.exe}">
 			<sources>
-				<include name="source/**.cs"/>
+				<include name="${project.sourcedir}/**.cs"/>
 			</sources>
 			<references>
 				<include name="System.Web.Extensions.dll"/>
@@ -40,7 +44,27 @@
 		</csc>
 	</target>
 
-	<target name="run" depends="bot">
+	<target name="build-test">
+		<csc target="library" verbose="true"
+				output="${build.dir}/${project.tests}">
+			<sources>
+				<include name="${project.sourcedir}/Proggitbot.cs"/>
+				<include name="${project.testdir}/**.cs"/>
+			</sources>
+			<references>
+				<include name="${build.dir}/SmartIrc4Net.dll"/>
+				<include name="System.Web.Extensions.dll"/>
+				<include name="nunit.core.dll"/>
+				<include name="nunit.framework.dll"/>
+			</references>
+		</csc>
+	</target>
+
+	<target name="test" depends="build-test">
+		<exec program="nunit-console2" commandline="-labels ${build.dir}/${project.tests}"/>
+	</target>
+
+	<target name="run" depends="bot, test">
 		<exec program="${build.dir}/${project.exe}"/>
 	</target>
 

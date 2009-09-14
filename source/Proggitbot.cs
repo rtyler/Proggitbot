@@ -12,12 +12,6 @@ namespace Proggitbot
 		#region "Member Variables"
 		private const string jsonUrl = "http://www.reddit.com/r/programming/.json";
 		#endregion
-		#region "Public Static Methods"
-		public static void Main(string[] args)
-		{
-			Console.WriteLine("Proggitbot!");
-		}
-		#endregion
 
 		#region "Internal Methods"
 		internal string FetchJson(string fullUrl)
