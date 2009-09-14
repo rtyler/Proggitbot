@@ -5,11 +5,71 @@ using System.Web.Script.Serialization;
 namespace Proggitbot
 {
 	[Serializable]
+	public class Root
+	{
+		#region "Member Variables"
+		private string kind = null;
+		private RootData data = null;
+		#endregion
+
+		#region "Public Properties"
+		public string Kind
+		{
+			get { return this.kind; }
+			set { this.kind = value; }
+		}
+		
+		public RootData Data
+		{
+			get { return this.data; }
+			set { this.data = value; }
+		}
+		#endregion
+	}
+
+	[Serializable]
+	public class RootData
+	{
+		#region "Member Variables"
+		private string after = null;
+		private List<Entry> children = null;
+		#endregion
+
+		#region "Public Properties"
+		public string After
+		{
+			get { return this.after; }
+			set { this.after = value; }
+		}
+
+		public List<Entry> Children
+		{
+			get { return this.children; }
+			set { this.children = value; }
+		}
+		#endregion
+	}
+
+	[Serializable]
 	public class Entry
 	{
 		#region "Member Variables"
 		private string kind = null;
 		private EntryData data = null; 
+		#endregion
+
+		#region "Public Properties"
+		public string Kind
+		{
+			get { return this.kind; }
+			set { this.kind = value; }
+		}
+	
+		public EntryData Data
+		{
+			get { return this.data; }
+			set { this.data = value; }
+		}
 		#endregion
 	}
 
