@@ -15,6 +15,9 @@ namespace Proggitbot
 		protected static string channel = "#proggitbot";
 		protected static string nick = "Proggitbot";
 		protected static string fullname = "Mono-driven Proggitbot";
+		protected static Proggitbot bot = new Proggitbot();
+		protected static Timer timer = null;
+		protected static Int64 pingBackPeriod = 60000;
 		#endregion
 
 		#region "Public Static Methods"
@@ -37,17 +40,27 @@ namespace Proggitbot
 			Console.WriteLine(e.Data.Message);
 		}
 
+		public static void TimedCheckup(object state)
+		{
+			List<EntryData> entries = bot.FetchNewEntries();
+			if ( (entries == null) || (entries.Count == 0) )
+			{
+				Console.WriteLine("Nothing new to report");
+				return;
+			}
+
+			foreach (EntryData entry in entries)
+			{
+				irc.SendMessage(SendType.Action, channel, 
+						String.Format("{0} ({1}) {2}", entry.Title, entry.Domain, entry.Url));
+			}
+		}
+
 		public static void Main(string[] args)
 		{
-			Proggitbot prog = new Proggitbot();
+			bot.FetchNewEntries();
 
-			foreach (EntryData entry in prog.Load().Entries)
-			{
-				Console.WriteLine("Author: {0}", entry.Author);
-				Console.WriteLine("Title: {0}", entry.Title);
-				Console.WriteLine("Domain: {0}", entry.Domain);
-				Console.WriteLine("=========================================");
-			}
+			timer = new Timer(new TimerCallback(TimedCheckup), null, 0, pingBackPeriod);
 
 			Thread.CurrentThread.Name = "Main";
 			
