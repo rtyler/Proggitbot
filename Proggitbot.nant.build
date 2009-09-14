@@ -49,6 +49,7 @@
 				output="${build.dir}/${project.tests}">
 			<sources>
 				<include name="${project.sourcedir}/Proggitbot.cs"/>
+				<include name="${project.sourcedir}/Entry.cs"/>
 				<include name="${project.testdir}/**.cs"/>
 			</sources>
 			<references>
